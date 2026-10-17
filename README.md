@@ -2,6 +2,10 @@
 
 Sistema web em português, responsivo, com identidade imperial em vinho, dourado e pergaminho. Python 3.12+ e SQLite, sem dependências externas.
 
+## Abrir localmente no Windows
+
+Instale Python 3.12+ com a opção **Add Python to PATH**, baixe e extraia o repositório e abra `iniciar-local.bat`. Acesse http://localhost:8000 com usuário `admin` e senha inicial `ImperialLocal2026`. Mantenha o terminal aberto. Os dados locais ficam em `data/local.db`; este arquivo não é enviado ao GitHub. Essa credencial é exclusiva para testes locais. Não use o iniciador em hospedagem pública. A senha inicial só funciona quando esse banco ainda não possui usuários.
+
 ## Executar
 
 ```bash
