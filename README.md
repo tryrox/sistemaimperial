@@ -1,6 +1,6 @@
 # Chancelaria Imperial de Solitude
 
-Sistema web em português, responsivo, com identidade imperial em vinho, dourado e pergaminho. Python 3.12+ e SQLite, sem dependências externas.
+Sistema web em português, responsivo, com HUD escura inspirada na organização do Linear, ícones vetoriais consistentes e detalhes imperiais discretos. Python 3.12+ e SQLite, sem dependências externas.
 
 ## Abrir localmente no Windows
 
@@ -15,6 +15,15 @@ python server.py
 ```
 
 Abra http://localhost:8000 e entre com os dados definidos. As variáveis devem ser configuradas no ambiente; `.env.example` é somente uma referência, não é carregado automaticamente. A senha inicial só é usada para criar o primeiro administrador. Não há senha padrão. O sistema começa vazio, sem dados fictícios.
+
+## Interface
+
+- Navegação agrupada por workspace, administração, relações e arquivo.
+- Tema escuro em todas as telas, login e formulários.
+- Paleta de comandos com `Ctrl+K` (ou `Cmd+K`), busca e navegação por setas/Enter.
+- Painel com pendências reais, agenda, publicações e atividade recente.
+- Indicadores clicáveis e filtro por situação nas listagens.
+- Layout responsivo e respeito à preferência de movimento reduzido.
 
 ## Módulos
 
