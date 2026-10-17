@@ -25,6 +25,12 @@ Abra http://localhost:8000 e entre com os dados definidos. As variáveis devem s
 - Indicadores clicáveis e filtro por situação nas listagens.
 - Layout responsivo e respeito à preferência de movimento reduzido.
 
+## Áreas de organização
+
+**Área Militar**: General, Capitão, Mago de Batalha (paralelo ao Capitão), Tenente e Legionário. **Área Administrativa**: Rei, Jarl de Solitude, Emissário, Aprendiz de Emissário e Tesoureiro. Cada cargo exibe atribuições, referência hierárquica, permissões do sistema e integrantes vinculados.
+
+Os integrantes são derivados das fichas de cidadãos e das funções informadas nos registros militares/diplomáticos. Nomes idênticos (ignorando acentos e caixa) são agrupados; registros arquivados não contam. A seção de Magos vincula automaticamente seus integrantes ao cargo Mago de Batalha. O campo aprendiz na Diplomacia vincula o Aprendiz de Emissário. Informe um nome individual por ficha/campo. As áreas não alteram cargos de login; as atribuições descritivas estão em `organization` no frontend e as permissões continuam verificadas no servidor.
+
 ## Módulos
 
 - Visão geral: indicadores calculados, últimos decretos e auditoria.
